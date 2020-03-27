@@ -1,8 +1,8 @@
 <?php
 
 $dbhost = getenv("MYSQL_SERVICE_HOST");
-$dbusername = 'devimawarni';
-$dbpassword = 'mawarni4';
+$dbusername = 'root';
+$dbpassword = 'ubaya';
 $dbname = 'ubayadb';
 
 $c = new mysqli($dbhost, $dbusername, $dbpassword, $dbnama);
