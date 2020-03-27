@@ -24,7 +24,7 @@
 require_once("database.php");
 ?>
 <body>
-<h2>Driver</h2>
+<h2>Taxi Online</h2>
 <table>
 	<tr>
 		<th>ID</th>
