@@ -3,7 +3,7 @@
 $dbhost = getenv("MYSQL_SERVICE_HOST");
 $dbusername = 'root';
 $dbpassword = 'ubaya';
-$dbname = 'ubayadb';
+$dbname = 'devidb';
 
 $c = new mysqli($dbhost, $dbusername, $dbpassword, $dbnama);
 if ($c->connect_error) {
