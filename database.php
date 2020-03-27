@@ -5,7 +5,7 @@ $dbusername = 'root';
 $dbpassword = 'ubaya';
 $dbname = 'devidb';
 
-$c = new mysqli($dbhost, $dbusername, $dbpassword, $dbnama);
+$c = new mysqli($dbhost, $dbusername, $dbpassword, $dbname);
 if ($c->connect_error) {
   echo "unable to connect, please try again";
   die();
